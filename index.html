@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nossa História</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<audio id="musicaFundo" loop preload="auto">
+    <source src="musica.mp3" type="audio/mpeg">
+</audio>
+
+<div id="transicao"></div>
+
+<div id="particulas"></div>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-content">
+        <h1>Wilker ❤️ Bárbara</h1>
+        <p>Esta é a nossa história.</p>
+
+        <a href="#" class="btn" id="abrirHistoria">
+            Abrir nossa história
+        </a>
+    </div>
+</section>
+
+<!-- DECLARAÇÃO -->
+<section class="texto animar" id="declaracao">
+    <p>Amar você é acordar todos os dias com vontade de ser melhor.</p>
+</section>
+
+<!-- CONTADOR -->
+<section class="contador animar">
+    <h2>❤️ Estamos juntos há...</h2>
+
+    <div class="contador-grid">
+        <div class="card"><div id="dias">0</div>Dias</div>
+        <div class="card"><div id="horas">0</div>Horas</div>
+        <div class="card"><div id="minutos">0</div>Min</div>
+        <div class="card"><div id="segundos">0</div>Seg</div>
+    </div>
+</section>
+
+<!-- GALERIA -->
+<section class="galeria animar">
+    <div class="memoria"><img src="imagens/arvore.jpeg"><p>Memória 1</p></div>
+    <div class="memoria"><img src="imagens/selfie.jpeg"><p>Memória 2</p></div>
+</section>
+
+<!-- TIMELINE -->
+<section class="timeline animar">
+    <h2>Nossa Jornada ❤️</h2>
+
+    <div class="item">Primeiro momento</div>
+    <div class="item">História continua</div>
+</section>
+
+<!-- CARTA -->
+<section class="carta animar">
+    <div class="carta-box">
+
+        <h2>💌 Carta</h2>
+
+        <button id="abrirCarta" class="btn">Abrir carta</button>
+
+        <div id="conteudoCarta">
+            <p>Texto da carta aqui...</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- FINAL -->
+<section class="final animar">
+    <h2>Fim ❤️</h2>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
